@@ -1,0 +1,65 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========================
+# Virtual Environment
+# ========================
+.venv/
+env/
+venv/
+ENV/
+.env
+
+# ========================
+# Flask / App Specific
+# ========================
+instance/
+*.sqlite3
+
+# Uploaded files (user prescriptions, photos — don't commit personal data)
+static/uploads/
+static/staff_photos/
+
+# ========================
+# Database
+# ========================
+*.sql.bak
+*.db
+
+# ========================
+# IDE / VS Code
+# ========================
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Logs
+# ========================
+*.log
+results.txt
+
+# ========================
+# Large zip archives
+# ========================
+*.zip
